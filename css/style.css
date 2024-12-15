@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth; /* Efek scroll bergulir dengan halus */
+  }
+
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -49,7 +53,7 @@ nav > a {
 }
 
 form{
-    background-color: antiquewhite;
+    background-color: aliceblue;
 }
 
 .p-form {
@@ -136,9 +140,64 @@ button {
     right: 474px;
 }
 
-
 .p-3 {
     position: relative;
     top: 94px;
     right: 453px;
+}
+
+/* packages */
+
+h2 {
+    text-align: center;
+    font-size: 37px;
+}
+
+.Bali {
+    border: solid;
+    display: flex;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+.bulb-icon {
+    border: solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.di-pckg {
+    margin-bottom: 30px;
+}
+
+.p-pckg {
+    margin-top: 55px;
+    margin-right: 50px;
+}
+
+.closing {
+    background-color: aliceblue;
+}
+
+.p-close {
+    text-align: center;
+}
+
+#calaction {
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 30px;
 }
