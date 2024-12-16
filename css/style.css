@@ -105,7 +105,7 @@ button {
     margin-left: 24px;
 }
 
-.gambar-angka1 {
+.gambar-angka1 { /*entah kenapa gambar nya gak mau masuk di lingkaran */
     background-size: cover;
     border: 1px solid;
     height: 30px;
