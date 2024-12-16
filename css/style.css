@@ -105,7 +105,7 @@ button {
     margin-left: 24px;
 }
 
-.gambar-angka1 {
+.gambar-angka1 {    /*entah kenapa gambar nya gak mau masuk di lingkaran */
     background-size: cover;
     border: 1px solid;
     height: 30px;
@@ -184,6 +184,7 @@ h3 {
 
 .closing {
     background-color: aliceblue;
+    margin-bottom: 35px;
 }
 
 .p-close {
@@ -198,6 +199,42 @@ h3 {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-left: 350px;
-    margin-top: 30px;
+    margin-left: 499px;
+    margin-top: 40px;
+}
+
+/* footer */
+
+.footer-end {
+    justify-content: center;
+    display: grid;
+}
+
+.di-end {
+    display: flow-root;
+    margin-bottom: 55px;
+}
+
+.Terms {
+    position: absolute;
+    bottom: -1369px;
+}
+
+.privacy {
+    position: absolute;
+    bottom: -1369px;
+    right: 550px;
+}
+
+.year {
+    position: absolute;
+    bottom: -1395px;
+    left: 600px;
+}
+
+
+.moqups {
+    position: absolute;
+    bottom: -1395px;
+    right: 592px;
 }
