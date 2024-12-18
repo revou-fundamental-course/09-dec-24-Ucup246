@@ -262,6 +262,10 @@ height: 45px;
     text-align: center;
 }
 
+#h2-closing-header {
+    text-align: center;
+}
+
 #calaction {
     background-color: black;
     color: white;
